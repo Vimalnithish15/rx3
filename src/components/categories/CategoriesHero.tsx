@@ -20,7 +20,7 @@ const CategoriesHero = () => {
             designed for durability, functionality, and aesthetic appeal across all construction needs.
           </p>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto border border-concrete-light transition-all duration-500 hover:bg-white hover:shadow-xl hover:scale-105" style={{ animationDelay: '0.6s' }}>
+          {/* <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto border border-concrete-light transition-all duration-500 hover:bg-white hover:shadow-xl hover:scale-105" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center space-x-4">
               <div className="relative flex-1">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-concrete-gray h-5 w-5 transition-colors duration-200" />
@@ -34,7 +34,7 @@ const CategoriesHero = () => {
                 Search
               </Button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

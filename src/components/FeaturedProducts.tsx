@@ -11,7 +11,7 @@ const FeaturedProducts = () => {
       name: "Decorative Breeze Blocks",
       category: "Breeze Blocks",
       categorySlug: "breeze-blocks",
-      image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=800&q=80",
+      image: "https://rx3.in/wp-content/uploads/2024/06/Screenshot_25-6-2024_162515_-120x120.jpeg",
       description: "Modern decorative blocks for ventilation and aesthetic appeal",
       features: ["Ventilation", "Privacy", "Decorative"],
     },
@@ -20,7 +20,7 @@ const FeaturedProducts = () => {
       name: "Precast Compound Walls",
       category: "Compound Walls",
       categorySlug: "compound-walls",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      image: "https://rx3.in/wp-content/uploads/2024/05/DSC06885_11zon-scaled-120x120.jpg",
       description: "Durable precast walls for residential and commercial security",
       features: ["Security", "Durability", "Quick Install"],
     },
@@ -29,7 +29,7 @@ const FeaturedProducts = () => {
       name: "Interlocking Paver Blocks",
       category: "Paver Blocks",
       categorySlug: "paver-blocks",
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80",
+      image: "	https://rx3.in/wp-content/uploads/2025/04/Purple-Modern-Welcome-September-XTwitter-Post-500x300.png",
       description: "Premium interlocking blocks for driveways and walkways",
       features: ["Interlocking", "Weather Resistant", "Easy Maintenance"],
     },
@@ -38,7 +38,7 @@ const FeaturedProducts = () => {
       name: "Concrete Door Frames",
       category: "Door & Window Frames",
       categorySlug: "door-and-window-frames",
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=800&q=80",
+      image: "https://rx3.in/wp-content/uploads/2024/05/DSC06763_11zon-scaled-120x120.jpg",
       description: "Robust concrete frames for doors and windows",
       features: ["Structural", "Fire Resistant", "Long Lasting"],
     },
@@ -47,7 +47,7 @@ const FeaturedProducts = () => {
       name: "Precast Ventilators",
       category: "Precast Ventilators",
       categorySlug: "precast-ventilators",
-      image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=800&q=80",
+      image: "https://rx3.in/wp-content/uploads/2024/06/Screenshot_25-6-2024_164048_-120x120.jpeg",
       description: "Efficient ventilation solutions for buildings",
       features: ["Air Flow", "Energy Efficient", "Maintenance Free"],
     },
@@ -56,7 +56,7 @@ const FeaturedProducts = () => {
       name: "Concrete Furniture",
       category: "Concrete Furniture",
       categorySlug: "concrete-furniture",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
+      image: "https://rx3.in/wp-content/uploads/2024/05/RX3_Concrete-Furniture_13-scaled-120x120.jpg",
       description: "Modern concrete furniture for outdoor spaces",
       features: ["Weather Proof", "Modern Design", "Low Maintenance"],
     }
@@ -80,25 +80,25 @@ const FeaturedProducts = () => {
         </div>
 
         {/* Products Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" style={{marginRight: '20px', marginLeft: '20px'}}>
           {products.map((product, index) => (
             <Card 
               key={product.id} 
               className="group hover:shadow-xl transition-all duration-300 border-concrete-light/50 hover:border-primary/20 overflow-hidden"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="relative overflow-hidden">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-4 left-4">
-                  <span className="bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">
-                    {product.category}
-                  </span>
-                </div>
-              </div>
+              <div className="relative overflow-hidden flex justify-center">
+  <img
+    src={product.image}
+    alt={product.name}
+    className="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition-transform duration-300 mx-auto"
+  />
+  <div className="absolute top-4 left-4">
+    <span className="bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">
+      {product.category}
+    </span>
+  </div>
+</div>
               
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-concrete-charcoal mb-2 group-hover:text-primary transition-colors">

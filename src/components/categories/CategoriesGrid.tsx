@@ -10,7 +10,7 @@ const categories = [
     id: 1,
     title: "Breeze Blocks",
     description: "Decorative concrete blocks that provide ventilation and natural light while maintaining privacy and security.",
-    image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2024/06/Screenshot_25-6-2024_162515_-500x300.jpeg",
     productCount: 24,
     applications: ["Residential", "Commercial"],
     specifications: "Various sizes: 190x190x90mm to 390x190x190mm"
@@ -19,7 +19,7 @@ const categories = [
     id: 2,
     title: "Compound Walls",
     description: "Precast concrete wall panels offering superior strength, durability, and cost-effectiveness for perimeter security.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2024/05/DSC06885_11zon-scaled-500x300.jpg",
     productCount: 18,
     applications: ["Residential", "Industrial"],
     specifications: "Heights: 1.8m to 3.0m, Various finishes available"
@@ -28,7 +28,7 @@ const categories = [
     id: 3,
     title: "Door & Window Frames",
     description: "Precision-crafted concrete frames that offer exceptional durability and weather resistance for all building types.",
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2020/01/DSC06675-scaled-500x300.jpg",
     productCount: 32,
     applications: ["Residential", "Commercial"],
     specifications: "Standard and custom sizes, Multiple finish options"
@@ -37,7 +37,7 @@ const categories = [
     id: 4,
     title: "Concrete Fencing",
     description: "Heavy-duty precast fencing solutions providing maximum security and longevity for various applications.",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2020/01/DSC06720-scaled-500x300.jpg",
     productCount: 15,
     applications: ["Industrial", "Commercial"],
     specifications: "Panel heights: 1.8m to 2.4m, Post-and-panel system"
@@ -46,7 +46,7 @@ const categories = [
     id: 5,
     title: "Concrete Furniture",
     description: "Modern, durable outdoor furniture pieces that combine functionality with contemporary aesthetic appeal.",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2024/05/RX3_Concrete-Furniture_18-scaled-500x300.jpg",
     productCount: 28,
     applications: ["Landscaping", "Commercial"],
     specifications: "Weather-resistant finishes, Various designs available"
@@ -55,7 +55,7 @@ const categories = [
     id: 6,
     title: "Precast Ventilators",
     description: "Efficient ventilation solutions that ensure optimal air circulation while maintaining structural integrity.",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2024/06/Screenshot_25-6-2024_163542_-500x300.jpeg",
     productCount: 12,
     applications: ["Residential", "Industrial"],
     specifications: "Various sizes and ventilation capacities"
@@ -64,7 +64,7 @@ const categories = [
     id: 7,
     title: "Paver Blocks",
     description: "Interlocking concrete pavers perfect for driveways, walkways, and outdoor spaces requiring durability.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2025/04/Purple-Modern-Welcome-September-XTwitter-Post-500x300.png",
     productCount: 45,
     applications: ["Landscaping", "Infrastructure"],
     specifications: "Multiple patterns, colors, and thickness options"
@@ -73,7 +73,7 @@ const categories = [
     id: 8,
     title: "Concrete Blocks & Bricks",
     description: "High-strength building blocks and bricks for structural and decorative construction applications.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    image: "https://rx3.in/wp-content/uploads/2025/04/paver-blocks-rx3.in_-500x300.png",
     productCount: 56,
     applications: ["Residential", "Commercial"],
     specifications: "Standard and custom sizes, Various strength grades"

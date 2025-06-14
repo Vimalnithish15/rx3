@@ -32,28 +32,28 @@ const Testimonials = () => {
   const companyLogos = [
     {
       name: "L&T Construction",
-      image: "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=200&h=80&q=80"
+      image: "https://rx3.in/wp-content/uploads/2024/06/LT-2.png"
     },
     {
       name: "Shapoorji Pallonji",
-      image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&w=200&h=80&q=80"
+      image: "https://rx3.in/wp-content/uploads/2024/06/256px-Adani_2012_logo-1.png"
     },
     {
       name: "Tata Projects",
-      image: "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=200&h=80&q=80"
+      image: "https://rx3.in/wp-content/uploads/2024/06/sb-home-1.jpg"
     },
     {
       name: "Prestige Group",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=200&h=80&q=80"
+      image: "https://rx3.in/wp-content/uploads/2024/06/pngwing.com-1.png"
     },
     {
       name: "Brigade Group",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=200&h=80&q=80"
-    },
-    {
-      name: "Sobha Limited",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=200&h=80&q=80"
+      image: "https://rx3.in/wp-content/uploads/2024/07/logo-1.png"
     }
+    // {
+    //   name: "Sobha Limited",
+    //   image: "	https://rx3.in/wp-content/uploads/2024/07/%E2%80%9…ilding-and-construction-logo-design_5137680-1.png"
+    // }
   ];
 
   const renderStars = (rating: number) => {
@@ -138,7 +138,7 @@ const Testimonials = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center justify-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 items-center justify-center">
             {companyLogos.map((company, index) => (
               <div 
                 key={index}

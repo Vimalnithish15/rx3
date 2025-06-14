@@ -29,7 +29,7 @@ const SearchAndFilter = () => {
           </div>
 
           {/* Filter and View Controls */}
-          <div className="flex items-center space-x-4">
+          {/* <div className="flex items-center space-x-4">
             <Button
               variant="outline"
               onClick={() => setShowFilters(!showFilters)}
@@ -57,7 +57,7 @@ const SearchAndFilter = () => {
                 <List className="h-4 w-4" />
               </Button>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Filter Panel */}
