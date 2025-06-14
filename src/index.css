@@ -1,0 +1,184 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 22% 22%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 22% 22%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 22% 22%;
+
+    --primary: 207 90% 54%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 18% 46%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 29% 94%;
+    --muted-foreground: 200 18% 46%;
+
+    --accent: 207 90% 54%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 29% 94%;
+    --input: 210 29% 94%;
+    --ring: 207 90% 54%;
+
+    --radius: 0.5rem;
+
+    /* Custom concrete business colors */
+    --concrete-charcoal: 210 22% 22%;
+    --concrete-gray: 200 18% 46%;
+    --concrete-light: 210 29% 94%;
+    --concrete-blue: 207 90% 54%;
+  }
+
+  .dark {
+    --background: 210 22% 22%;
+    --foreground: 0 0% 100%;
+
+    --card: 210 22% 22%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 210 22% 22%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 207 90% 54%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 18% 46%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 200 18% 46%;
+    --muted-foreground: 210 29% 94%;
+
+    --accent: 207 90% 54%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 200 18% 46%;
+    --input: 200 18% 46%;
+    --ring: 207 90% 54%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    scroll-behavior: smooth;
+  }
+
+  /* Smooth scrolling for all elements */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-concrete-charcoal {
+    color: hsl(var(--concrete-charcoal));
+  }
+  
+  .text-concrete-gray {
+    color: hsl(var(--concrete-gray));
+  }
+  
+  .bg-concrete-light {
+    background-color: hsl(var(--concrete-light));
+  }
+  
+  .bg-concrete-blue {
+    background-color: hsl(var(--concrete-blue));
+  }
+  
+  .border-concrete-light {
+    border-color: hsl(var(--concrete-light));
+  }
+
+  /* Enhanced animation utilities */
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Hover effects */
+  .hover-lift {
+    transition: all 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  .hover-glow {
+    transition: all 0.3s ease;
+  }
+
+  .hover-glow:hover {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+
+  /* Scroll reveal animations */
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+  }
+
+  .scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--concrete-light));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--concrete-gray));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
