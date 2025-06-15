@@ -30,8 +30,8 @@ const ProductsFilter = ({ filters, setFilters, sortBy, setSortBy }: ProductsFilt
     'Concrete Fencing',
     'Furniture',
     'Precast Ventilators',
-    'Paver Blocks',
-    'Concrete Blocks & Bricks'
+    // 'Paver Blocks',
+    // 'Concrete Blocks & Bricks'
   ];
 
   const sizes = ['Small', 'Medium', 'Large', 'Extra Large', 'Custom'];
